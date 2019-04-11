@@ -5,6 +5,7 @@ import store from './store'
 import fastClick from 'fastclick' //300毫秒延迟
 import './assets/styles/reset.css'
 import './assets/styles/border.css' //二倍屏问题
+import './assets/styles/iconfont.css' 
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
