@@ -6,8 +6,11 @@ import fastClick from 'fastclick' //300毫秒延迟
 import './assets/styles/reset.css'
 import './assets/styles/border.css' //二倍屏问题
 import './assets/styles/iconfont.css' 
+import 'swiper/dist/css/swiper.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.config.productionTip = false
+Vue.use(VueAwesomeSwiper)
 fastClick.attach(document.body)
 new Vue({
   router,
