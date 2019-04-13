@@ -99,7 +99,7 @@ export default {
   .nav 
     width: 100%;
     padding-top: .1rem;
-    height: 3.2rem;
+    height: 3.6rem;
     li
       width: 25%;
       text-align: center;
