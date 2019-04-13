@@ -39,7 +39,24 @@ textarea {
   /*元素的外观  none没有任何样式*/
   -webkit-appearance: none;
 }
+ input::-webkit-input-placeholder {
+   color: #eef0f2;
+ }
 
+ input::-moz-placeholder {
+   /* Mozilla Firefox 19+ */
+   color: #eef0f2;
+ }
+
+ input:-moz-placeholder {
+   /* Mozilla Firefox 4 to 18 */
+   color: #eef0f2;
+ }
+
+ input:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: #eef0f2;
+ }
 /*=======common css========*/
 
 

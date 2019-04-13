@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
     <swiper :options="swiperOption">
-      <swiper-slide v-for="item in swiperList">
+      <swiper-slide v-for="item in swiperList" :key="item.id" >
         <a href="#">
-          <img class="swiper-img" :src="item.imgUrl" :key="item.id" alt="">
+          <img class="swiper-img" :src="item.imgUrl" alt="">
         </a>
       </swiper-slide>
    
