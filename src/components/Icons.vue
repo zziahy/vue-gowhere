@@ -23,54 +23,11 @@ export default {
     return {
       'swiperOption': {
         pagination: '.swiper-pagination',
-      },
-      iconList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        desc: '景点门票'
-      },
-      {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png',
-        desc: '一日游'
-      },
-      {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png',
-        desc: '郑州必游'
-      },
-      {
-        id: '0004',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png',
-        desc: '郑州方特'
-      },
-      {
-        id: '0005',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png',
-        desc: '踏青赏花'
-      },
-      {
-        id: '0006',
-        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/51916fbd2017181f28110473eafcf5c7.png',
-        desc: '洛阳牡丹会'
-      },
-      {
-        id: '0007',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png',
-        desc: '动植物园'
-      },
-      {
-        id: '0008',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
-        desc: '亲子游'
-      },
-      {
-        id: '0009',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
-        desc: '海洋馆'
       }
-      ]
     }
+  },
+  props: {
+    iconList: Array
   },
   computed: {
     pages(){

@@ -30,57 +30,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data(){
-    return {
-      recommendList: [{
-        id: '001',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1710/37/37da055bc2d39755a3.img.jpg_200x200_aec295f8.jpg',
-        tagUrl: 'https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png',
-        tag: '随买随用',
-        title: '郑州方特欢乐世界',
-        comment: '7420',
-        price: '255',
-        address: '中牟县',
-        decs: '高科技主题乐园，方特成就梦想'
-      },{
-        id: '002',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1709/e9/e9b7ae23f567806ea3.img.jpg_200x200_bf985a3d.jpg',
-        tagUrl: 'https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png',
-        tag: '随买随用',
-        title: '少林寺',
-        comment: '7027',
-        price: '60',
-        address: '嵩山',
-      },{
-        id: '003',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1501/7f/7f95b9cb5cc9e227.water.jpg_200x200_2767529b.jpg',
-        tagUrl: 'https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png',
-        tag: '随买随用',
-        title: '郑州绿博园',
-        comment: '1466',
-        price: '17.4',
-        address: '仲谋县',
-      },{
-        id: '004',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1811/6c/6cbe2a1a22e6bab2a3.img.jpg_200x200_365f258b.jpg',
-        tagUrl: 'https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png',
-        tag: '随买随用',
-        title: '竹林长寿山景区',
-        comment: '1139',
-        price: '39.3',
-        address: '巩义市',
-        decs: '回归自然、放飞心情、陶冶情操的佳处'
-      },{
-        id: '005',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1412/12/88ee179e9cdd4902ffecc16e12fa4e1e.water.jpg_200x200_08bf7b1e.jpg',
-        tagUrl: 'https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png',
-        tag: '明日可订',
-        title: '世纪欢乐园',
-        comment: '10475',
-        price: '35',
-        address: '管城回族',
-      },]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

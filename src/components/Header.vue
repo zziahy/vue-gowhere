@@ -9,7 +9,7 @@
         <input type="text" placeholder="附近热搜">
       </form>
       <a href="#" class="login">
-        登录
+        {{ this.city }}
         <i class="iconfont">&#xe6aa;</i>
       </a>
     </div>
@@ -17,7 +17,10 @@
 </template>
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 <style lang="stylus" scoped>

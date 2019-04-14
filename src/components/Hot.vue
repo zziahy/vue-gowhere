@@ -29,42 +29,8 @@
 <script>
 export default {
   name: 'HomeHot',
-  data(){
-    return {
-      hotList: [{
-        id: '001',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1709/e9/e9b7ae23f567806ea3.img.jpg_250x250_4117ce07.jpg',
-        imgUrl1: 'https://imgs.qunarzz.com/piao/fusion/1710/ab/159673b63e6ca702.png',
-        decs0: '少林寺',
-        decs1: '$60'
-      },
-      {
-        id: '002',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1709/63/637ea7611e472428a3.img.jpg_250x250_808fba82.jpg',
-        imgUrl1: 'https://imgs.qunarzz.com/piao/fusion/1710/2d/36d0c4adaebbbc02.png',
-        decs0: '郑州园博园',
-        decs1: '$38.9'
-      },
-      {
-        id: '003',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/1501/7f/7f95b9cb5cc9e227.water.jpg_250x250_61472b75.jpg',
-        imgUrl1: 'https://imgs.qunarzz.com/piao/fusion/1710/67/edc47ffef9e96b02.png',
-        decs0: '郑州绿博园',
-        decs1: '$17.5'
-      },
-      {
-        id: '004',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/201309/12/317f9a83c526f54ac8d65eac.jpg_250x250_64f3e8b6.jpg',
-        decs0: '郑州动物园',
-        decs1: '$30'
-      },
-      {
-        id: '005',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/201309/12/317f9a83c526f54ac8d65eac.jpg_250x250_64f3e8b6.jpg',
-        decs0: '郑州动物园',
-        decs1: '$30'
-      },]
-    }
+  props:{
+    hotList: Array
   }
 }
 </script>
