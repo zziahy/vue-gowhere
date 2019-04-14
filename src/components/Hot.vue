@@ -19,7 +19,7 @@
             <img :src="item.imgUrl" alt="">
           </a>
           <img  v-if="item.imgUrl1" :src="item.imgUrl1" alt="" class="top">
-          <p>{{ item.decs }}</p>
+          <p>{{ item.decs0 }}</p>
           <span>{{ item.decs1 }}</span>起
         </li>
       </ul>
@@ -70,7 +70,7 @@ export default {
 </script>
 <style lang="stylus" scoped>
 .hot 
-  padding-top: .2rem;
+  padding: .2rem 0;
   background: #F5F5F5;
   .hot-hd
     height: .9rem;
