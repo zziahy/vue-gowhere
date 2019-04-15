@@ -8,10 +8,10 @@
         <i class="iconfont iconsousuo"></i>
         <input type="text" placeholder="附近热搜">
       </form>
-      <a href="#" class="login">
-        {{ this.city }}
-        <i class="iconfont">&#xe6aa;</i>
-      </a>
+        <a href="#/city" class="login">
+          {{ this.city }}
+          <i class="iconfont">&#xe6aa;</i>
+        </a>
     </div>
   </header>
 </template>
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-@import '../assets/styles/varibles.styl'
+@import '../../assets/styles/varibles.styl'
 .header 
   height: 0.8rem;
   width: 100%;

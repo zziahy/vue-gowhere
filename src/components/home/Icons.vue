@@ -46,8 +46,8 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-  @import '../assets/styles/reset.css'
-  @import '../assets/styles/maxins.sty'
+  @import '../../assets/styles/reset.css'
+  @import '../../assets/styles/maxins.sty'
   .nav >>> .swiper-container
    height: 3.6rem;
    border-bottom 1px solid #F3F3F3;

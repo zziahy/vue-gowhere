@@ -27,7 +27,7 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-@import '../assets/styles/maxins.sty'
+@import '../../assets/styles/maxins.sty'
   .weekend-hd
     height: .8rem;
     padding-left: .26rem;
