@@ -9,41 +9,30 @@
     <div class="city-list">
       <div class="city-list-title">热门城市</div>
       <ul class="hotcity-list">
-        <li>北京</li>
-        <li>北京</li>
-        <li>北京</li>
-        <li>北京</li>
+        <li v-for="item in hotCities" :key="item.id"><a href="#">{{ item.name }}</a></li>
+        
       </ul>
       <div class="city-list-title">字母排序</div>
       <ul class="character-list">
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
+        <li v-for="(item,key) in cities" :key="key">{{ key }}</li>
       </ul>
-      <div class="city-list-title">A</div>
-      <ul class="hotcity-list">
-        <li>安顺</li>
-        <li>安顺</li>
-        <li>安顺</li>
-        <li>安顺</li>
-      </ul>
+      <div v-for="(item,key) in cities" :key="key">
+        <div class="city-list-title">{{ key }}</div>
+        <ul class="hotcity-list">
+          <li v-for="items in item" :key="items.id"><a href="#">{{ items.name }}</a></li>
+        </ul>
+      </div>
     </div>
 
   </div>
 </template>
 <script>
 export default {
-  name: 'CityContainer'
-
+  name: 'CityContainer',
+  props: {
+  cities: Object,
+  hotCities: Array 
+  },
 }
 </script>
 <style lang="stylus" scoped>
@@ -91,6 +80,9 @@ export default {
         border-bottom: .02rem solid #ddd;
         margin-bottom: -1px;
         float: left;
+        a  
+          display: block;
+          width: 100%;
     .character-list
       padding: .3rem 0;
       overflow hidden;
