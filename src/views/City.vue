@@ -1,7 +1,7 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-container :hotCities='hotCities' :cities='cities'></city-container>
+    <city-container :tab="tab"></city-container>
   </div>
 </template>
 <script>
@@ -16,8 +16,9 @@ export default {
   },
   data(){
     return{
-      cities: {},
-      hotCities: []
+      // cities: Object,
+      // hotCities: [],
+      tab: []
     }
   },
   methods: {
@@ -27,8 +28,9 @@ export default {
     getCityData(res){
       var res = res.data;
       if(res.ret && res.data) {
-        this.cities = res.data.cities;
-        this.hotCities = res.data.hotCities;
+        this.tab = res.data;
+        // this.cities = res.data.cities;
+        // this.hotCities = res.data.hotCities;
       }
 
     }

@@ -18,5 +18,6 @@ export default new Router({
       component: City
     }
     
-  ]
+  ],
+
 })

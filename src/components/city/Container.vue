@@ -2,22 +2,24 @@
   <div class="city-container">
     <div class="city-tab">
       <ul>
-        <li class="active">境内</li>
-        <li>境外</li>
+        <li v-for="(item,index) in list" :key="index" :class="{active:num==index}" @click=getNum(index)>
+          {{ item }}
+        </li>
       </ul>
     </div>
-    <div class="city-list">
+    <div class="city-list" v-for="(data,index) in tab" :key="index" v-show="index==num" >
       <div class="city-list-title">热门城市</div>
       <ul class="hotcity-list">
-        <li v-for="item in hotCities" :key="item.id"><a href="#">{{ item.name }}</a></li>
-        
+        <li v-for="item in data.hotCities" :key="item.id"><a href="#">{{ item.name }}</a></li>
       </ul>
       <div class="city-list-title">字母排序</div>
       <ul class="character-list">
-        <li v-for="(item,key) in cities" :key="key">{{ key }}</li>
+        <li v-for="(item,key) in data.cities"
+         :key="key" 
+        ><a href="javascript:void(0)" @click="goAnchor('#anchor-'+key)" >{{ key }}</a></li>
       </ul>
-      <div v-for="(item,key) in cities" :key="key">
-        <div class="city-list-title">{{ key }}</div>
+      <div v-for="(item,key) in data.cities" :key="key">
+        <div class="city-list-title" :id="'anchor-'+key">{{ key }}</div>
         <ul class="hotcity-list">
           <li v-for="items in item" :key="items.id"><a href="#">{{ items.name }}</a></li>
         </ul>
@@ -29,10 +31,24 @@
 <script>
 export default {
   name: 'CityContainer',
-  props: {
-  cities: Object,
-  hotCities: Array 
+  data(){
+  return {
+    list:["境内","境外"],
+    num: '',
+    }
   },
+  methods:{
+    getNum(index) {
+      this.num = index;
+    },
+     goAnchor(selector) {
+     var anchor = this.$el.querySelector(selector)
+     document.documentElement.scrollTop = anchor.offsetTop
+    }
+  },
+  props: {
+    tab: Array
+  }
 }
 </script>
 <style lang="stylus" scoped>
