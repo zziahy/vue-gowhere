@@ -9,15 +9,19 @@
         <input type="text" placeholder="附近热搜">
       </form>
         <a href="#/city" class="login">
-          {{ this.$store.state.city }}
+          {{ this.city }}
           <i class="iconfont">&#xe6aa;</i>
         </a>
     </div>
   </header>
 </template>
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
+  computed: {
+    ...mapState(['city'])
+  },
 }
 </script>
 <style lang="stylus" scoped>

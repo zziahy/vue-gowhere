@@ -26,7 +26,7 @@ export default {
       axios.get('/api/city.json').then(this.getCityData)
     },
     getCityData(res){
-      var res = res.data;
+      res = res.data;
       if(res.ret && res.data) {
         this.tab = res.data;
         // this.cities = res.data.cities;

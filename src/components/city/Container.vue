@@ -34,6 +34,7 @@
   </div>
 </template>
 <script>
+import { mapActions } from 'vuex'
 export default {
   name: 'CityContainer',
   data(){
@@ -46,14 +47,20 @@ export default {
     getNum(index) {
       this.num = index;
     },
-     goAnchor(selector) {
+    goAnchor(selector) {
      var anchor = this.$el.querySelector(selector)
      document.documentElement.scrollTop = anchor.offsetTop
     },
     handleCityClick(city) {
-      this.$store.dispatch('changeCity',city);
+      //this.$store.dispatch('changeCity',city);
+      this.changeCity(city)
+      //this.$store.commit('changeCity',city)
       this.$router.push('/')
-    }
+    },
+    ...mapActions(['changeCity'])
+  },
+  computed: {
+    
   },
   props: {
     tab: Array
