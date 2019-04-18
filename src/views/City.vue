@@ -32,7 +32,6 @@ export default {
         // this.cities = res.data.cities;
         // this.hotCities = res.data.hotCities;
       }
-
     }
   },
   mounted(){

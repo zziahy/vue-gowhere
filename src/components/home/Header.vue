@@ -9,7 +9,7 @@
         <input type="text" placeholder="附近热搜">
       </form>
         <a href="#/city" class="login">
-          {{ this.city }}
+          {{ this.$store.state.city }}
           <i class="iconfont">&#xe6aa;</i>
         </a>
     </div>
@@ -18,9 +18,6 @@
 <script>
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
-  }
 }
 </script>
 <style lang="stylus" scoped>

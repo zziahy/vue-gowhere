@@ -10,7 +10,9 @@
     <div class="city-list" v-for="(data,index) in tab" :key="index" v-show="index==num" >
       <div class="city-list-title">热门城市</div>
       <ul class="hotcity-list">
-        <li v-for="item in data.hotCities" :key="item.id"><a href="#">{{ item.name }}</a></li>
+        <li v-for="item in data.hotCities" :key="item.id"
+        @click="handleCityClick(item.name)"
+        ><a href="javascript:void(0)">{{ item.name }}</a></li>
       </ul>
       <div class="city-list-title">字母排序</div>
       <ul class="character-list">
@@ -21,7 +23,10 @@
       <div v-for="(item,key) in data.cities" :key="key">
         <div class="city-list-title" :id="'anchor-'+key">{{ key }}</div>
         <ul class="hotcity-list">
-          <li v-for="items in item" :key="items.id"><a href="#">{{ items.name }}</a></li>
+          <li v-for="items in item" :key="items.id" 
+          @click="handleCityClick(items.name)">
+          <a href="javascript:void(0)">{{ items.name }}</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -44,6 +49,10 @@ export default {
      goAnchor(selector) {
      var anchor = this.$el.querySelector(selector)
      document.documentElement.scrollTop = anchor.offsetTop
+    },
+    handleCityClick(city) {
+      this.$store.dispatch('changeCity',city);
+      this.$router.push('/')
     }
   },
   props: {
@@ -96,6 +105,7 @@ export default {
         border-bottom: .02rem solid #ddd;
         margin-bottom: -1px;
         float: left;
+        position relative;
         a  
           display: block;
           width: 100%;
