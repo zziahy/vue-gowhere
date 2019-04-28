@@ -6,7 +6,7 @@
     </div>
     <ul class="like-list" v-for="item in recommendList" :key="item.id">
       <li class="list-item">
-        <a href="#">
+        <a :href="'#/detail/'+item.id">
           <div class="item-left">
             <img class="imgcon" :src="item.imgUrl" alt="">
             <div class="tag" :style="{backgroundImage:'url('+item.tagUrl+')'}">{{ item.tag }}</div>

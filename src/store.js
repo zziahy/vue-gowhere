@@ -6,7 +6,8 @@ let defaultCity = "郑州"
 try {
   if(localStorage.city)
   defaultCity = localStorage.city;
-} catch (error) {
+} 
+catch (error) {
   
 }
 export default new Vuex.Store({
