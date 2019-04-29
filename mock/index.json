@@ -1,0 +1,176 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/942d87cc1576c333c77dc1f86af145cd.jpg_750x200_d25bf3eb.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/5aed0c962f09f0681d31c6e7a159a80d.jpg_750x200_5929f4c9.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/065046b9ef7feccc4cbb7d2ff8257518.jpg_750x200_7082b648.jpg"
+      }
+    ],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "郑州必游"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "desc": "郑州方特"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+        "desc": "踏青赏花"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/51916fbd2017181f28110473eafcf5c7.png",
+        "desc": "洛阳牡丹会"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "亲子游"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "海洋馆"
+      }
+    ],
+    "hotList": [{
+        "id": "001",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1709/e9/e9b7ae23f567806ea3.img.jpg_250x250_4117ce07.jpg",
+        "imgUrl1": "https://imgs.qunarzz.com/piao/fusion/1710/ab/159673b63e6ca702.png",
+        "decs0": "少林寺",
+        "decs1": "$60"
+      },
+      {
+        "id": "002",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1709/63/637ea7611e472428a3.img.jpg_250x250_808fba82.jpg",
+        "imgUrl1": "https://imgs.qunarzz.com/piao/fusion/1710/2d/36d0c4adaebbbc02.png",
+        "decs0": "郑州园博园",
+        "decs1": "$38.9"
+      },
+      {
+        "id": "003",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1501/7f/7f95b9cb5cc9e227.water.jpg_250x250_61472b75.jpg",
+        "imgUrl1": "https://imgs.qunarzz.com/piao/fusion/1710/67/edc47ffef9e96b02.png",
+        "decs0": "郑州绿博园",
+        "decs1": "$17.5"
+      },
+      {
+        "id": "004",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/201309/12/317f9a83c526f54ac8d65eac.jpg_250x250_64f3e8b6.jpg",
+        "decs0": "郑州动物园",
+        "decs1": "$30"
+      },
+      {
+        "id": "005",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/201309/12/317f9a83c526f54ac8d65eac.jpg_250x250_64f3e8b6.jpg",
+        "decs0": "郑州动物园",
+        "decs1": "$30"
+      }
+    ],
+    "recommendList": [{
+        "id": "001",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1710/37/37da055bc2d39755a3.img.jpg_200x200_aec295f8.jpg",
+        "tagUrl": "https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png",
+        "tag": "随买随用",
+        "title": "郑州方特欢乐世界",
+        "comment": "7420",
+        "price": "255",
+        "address": "中牟县",
+        "decs": "高科技主题乐园，方特成就梦想"
+      },
+      {
+        "id": "002",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1709/e9/e9b7ae23f567806ea3.img.jpg_200x200_bf985a3d.jpg",
+        "tagUrl": "https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png",
+        "tag": "随买随用",
+        "title": "少林寺",
+        "comment": "7027",
+        "price": "60",
+        "address": "嵩山"
+      },
+      {
+        "id": "003",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1501/7f/7f95b9cb5cc9e227.water.jpg_200x200_2767529b.jpg",
+        "tagUrl": "https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png",
+        "tag": "随买随用",
+        "title": "郑州绿博园",
+        "comment": "1466",
+        "price": "17.4",
+        "address": "仲谋县"
+      },
+      {
+        "id": "004",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1811/6c/6cbe2a1a22e6bab2a3.img.jpg_200x200_365f258b.jpg",
+        "tagUrl": "https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png",
+        "tag": "随买随用",
+        "title": "竹林长寿山景区",
+        "comment": "1139",
+        "price": "39.3",
+        "address": "巩义市",
+        "decs": "回归自然、放飞心情、陶冶情操的佳处"
+      },
+      {
+        "id": "005",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1412/12/88ee179e9cdd4902ffecc16e12fa4e1e.water.jpg_200x200_08bf7b1e.jpg",
+        "tagUrl": "https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png",
+        "tag": "明日可订",
+        "title": "世纪欢乐园",
+        "comment": "10475",
+        "price": "35",
+        "address": "管城回族"
+      }
+    ],
+    "weekendList": [{
+        "id": "001",
+        "imgUrl": "https://imgs.qunarzz.com/sight/source/1505/86/57819390ea997c.jpg_r_640x214_00888590.jpg",
+        "name": "郑州打卡",
+        "desc": "日月轮回，孕育出新的美丽"
+      },
+      {
+        "id": "002",
+        "imgUrl": "https://imgs.qunarzz.com/sight/source/1811/d2/017059dd59b0ee.jpg_r_640x214_497664a4.jpg",
+        "name": "城中碧玉万仙山",
+        "desc": "清幽山乡，人间仙境，世外桃源，雄壮而苍茫的红崖绝壁，妙曼而秀雅的山乡风韵，太行风光的典型代表"
+      },
+      {
+        "id": "003",
+        "imgUrl": "https://imgs.qunarzz.com/sight/source/1603/eb/7f570846b929d8.jpg_r_640x214_7caca563.jpg",
+        "name": "本地人最爱玩",
+        "desc": "洛阳牡丹，美艳群芳"
+      },
+      {
+        "id": "004",
+        "imgUrl": "https://imgs.qunarzz.com/sight/source/1505/ac/4c5317165807.jpg_r_640x214_f7431b62.jpg",
+        "name": "发现周末好玩",
+        "desc": "周末，想去哪儿就去哪儿"
+      }
+    ]
+  }
+}
